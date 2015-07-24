@@ -1,8 +1,9 @@
 #!/usr/bin/python
+preco = input("Digite o preco do produto: ")
+porcentagem = input("Digite o desconto: ")
 
-distancia = float(input("Digite a distancia da viagem: "))
-velocidade = float(input("Digite a velocidade media: "))
-tempo = distancia/velocidade
-min = (round(tempo % 1, 2))
-min = (min * 60)
-print('O tempo esperado da viagem e de {:.0f} horas e {:.0f} minutos'.format(tempo,min))
+
+resultado = porcentagem / 100.0 * preco
+
+print "O valor do desconto e:",resultado
+print "Valor a pagar:",preco - resultado

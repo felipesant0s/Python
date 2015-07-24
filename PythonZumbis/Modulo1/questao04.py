@@ -1,9 +1,8 @@
 #!/usr/bin/python
-preco = input("Digite o preco do produto: ")
-porcentagem = input("Digite o desconto: ")
+salario = input("Digite o salario: ")
+porcentagem = input("Digite a porcentagem: ")
 
+resultado = porcentagem / 100.0 * salario
 
-resultado = porcentagem / 100.0 * preco
-
-print "O valor do desconto e:",resultado
-print "Valor a pagar:",preco - resultado
+print "o Aumento foi de:",resultado
+print "O Novo Slario e: ",resultado + salario

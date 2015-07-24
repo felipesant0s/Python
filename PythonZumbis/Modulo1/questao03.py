@@ -1,8 +1,7 @@
 #!/usr/bin/python
-salario = input("Digite o salario: ")
-porcentagem = input("Digite a porcentagem: ")
+dias=int(input('Digiteo valor de dias Dias: '))
+horas=int(input('Digite o valor das Horas: '))
+minutos=int(input('Digite o valor dos minutos minutos: '))
 
-
-resultado = porcentagem / 100.0 * salario
-
-print resultado + salario
+segundos=(minutos*60)+(horas*3600)+(dias*86400)
+print "Total em segundos:",segundos

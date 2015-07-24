@@ -1,5 +1,5 @@
 #!/usr/bin/python
-tempfahrenheit = float(input('Insira a Temperatura em Fahrenheit: '))
-conv = ((tempfahrenheit-32)/1.8)
+tempcelsius = float(input('Insira a Temperatura em Celsius: '))
+conv = (9*(tempcelsius/5)+32)
 
-print('Celsius : {:.2f}'.format(conv))
+print('Fahrenheit : {:.2f}'.format(conv))
