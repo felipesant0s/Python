@@ -19,7 +19,6 @@ pwd = "sua_senha"
 anexo = "/home/felipe/teste.txt" #Caminho do anexo a ser enviado
 
 
-
 def process(row, to, subject, text, attach):
    msg = MIMEMultipart()
 
